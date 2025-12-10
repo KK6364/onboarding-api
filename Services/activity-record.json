@@ -62,69 +62,6 @@
           }
         }
       ]
-    },
-    {
-      "id": "m0mvoh0loj",
-      "activityType": "email",
-      "companyId": "21r1aeuj87e",
-      "accountId": "",
-      "dataScheduled": "",
-      "notes": "",
-      "status": "pending",
-      "dateCreated": "2019-02-25T08:22:34.560Z",
-      "dateUpdated": "2019-02-25T08:22:34.560Z",
-      "links": [
-        {
-          "rel": "read",
-          "href": "/activity/m0mvoh0loj"
-        },
-        {
-          "rel": "update",
-          "href": "/activity/m0mvoh0loj",
-          "form": {
-            "method": "put",
-            "contentType": "application/x-www-form-urlencoded",
-            "properties": [
-              {
-                "name": "activityId",
-                "value": "m0mvoh0loj"
-              },
-              {
-                "name": "actiityType",
-                "value": "email"
-              },
-              {
-                "name": "accountId",
-                "value": ""
-              },
-              {
-                "name": "companyId",
-                "value": "21r1aeuj87e"
-              },
-              {
-                "name": "dateScheduled",
-                "value": ""
-              },
-              {
-                "name": "notes",
-                "value": ""
-              },
-              {
-                "name": "status",
-                "value": "pending"
-              }
-            ]
-          }
-        },
-        {
-          "rel": "delete",
-          "href": "/activity/m0mvoh0loj",
-          "form": {
-            "method": "delete",
-            "properties": []
-          }
-        }
-      ]
     }
   ],
   "links": [
