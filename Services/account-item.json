@@ -1,0 +1,8 @@
+{"account":[
+  {
+    "type": "error",
+    "name": "SimpleStorage: [account]",
+    "message": "ENOENT: no such file or directory, open '/app/data/account/null'",
+    "code": 400
+  }
+]}

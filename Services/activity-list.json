@@ -1,0 +1,24 @@
+{"activity":[
+  {
+    "id": "2dra7wqcyup",
+    "activityType": "email",
+    "companyId": "1or2ab05imf",
+    "accountId": "",
+    "dataScheduled": "",
+    "notes": "",
+    "status": "pending",
+    "dateCreated": "2019-02-25T08:22:15.648Z",
+    "dateUpdated": "2019-02-25T08:22:15.648Z"
+  },
+  {
+    "id": "m0mvoh0loj",
+    "activityType": "email",
+    "companyId": "21r1aeuj87e",
+    "accountId": "",
+    "dataScheduled": "",
+    "notes": "",
+    "status": "pending",
+    "dateCreated": "2019-02-25T08:22:34.560Z",
+    "dateUpdated": "2019-02-25T08:22:34.560Z"
+  }
+]}
