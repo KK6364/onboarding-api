@@ -1,0 +1,35 @@
+Home
+-> Customer
+-> CreateCompany(companyName, address, email, telephone, status)
+-> CreatedCustomer
+-> Home
+Home
+-> Account
+-> CreateAccount(companyId, division, discount, creditLimit)
+-> CreatedAccount
+-> Home
+Home
+-> Activity
+-> CreateActivity(companyId, accountId, activityType, dateScheduled)
+-> CreatedActivity
+-> Home
+Validated Names
+* companyName := https://schema.org/legalName
+* address := https://schema.org/PostalAddress
+* email := https://schema.org/email
+* telephone := https://schema.org/telephone
+* dateScheduled := https://schema.org/Date
+* discount := https://schema.org/discount
+* companyId := http://glossary.bigco.com/companyId
+* creditLimit := http://glossary.bigco.com/creditLimit
+* accountId := http://glossary.bigco.com/accountId
+* division := https://schema.org/department
+* activityType := https://schema.org/action
+* Home := http://glossary.bigco.com/Home
+* CreateCompany := http://glossary.bigco.com/CreateCompany
+* CreatedCompany := http://glossary.bigco.com/CreatedCompany
+* Account := http://glossary.bigco.com/Account
+* CreateAccount := http://glossary.bigco.com/CreateAccount
+* CreatedAccount := http://glossary.bigco.com/CreatedAccount
+* SalesActivity := http://glossary.bigco.com/SalesActivty
+* CreatedActivity := http://glossary.bigco.com/CreatedActivity
