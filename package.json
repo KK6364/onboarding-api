@@ -1,0 +1,28 @@
+{
+  "name": "onboarding",
+  "version": "1.0.0",
+  "description": "BigCo Onboarding API Project",
+  "keywords": [
+    "api",
+    "onboarding",
+    "bigco"
+  ],
+  "homepage": "https://github.com/KK6364/onboarding-api#readme",
+  "bugs": {
+    "url": "https://github.com/KK6364/onboarding-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KK6364/onboarding-api.git"
+  },
+  "license": "ISC",
+  "author": "kishore kumar <k.kishorefts@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
