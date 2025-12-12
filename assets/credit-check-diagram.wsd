@@ -1,0 +1,8 @@
+Home -> CheckCreditHistory:
+  note over CheckCreditHistory: ratingId, companyName, ratingValue, dateRequested
+CheckCreditHistory --> Home:
+CheckCreditHistory -> CheckCreditForm:
+CheckCreditForm -> CheckCreditItem: (companyName)
+CheckCreditItem --> CheckCreditHistory:
+  note over CheckCreditHistory: ratingId, companyName, ratingValue, dateRequested
+CheckCreditHistory --> Home:

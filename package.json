@@ -24,7 +24,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "gen:wsd": "node scripts/generate-wsd.js assets/credit-check-diagram.wsd assets/credit-check-diagram.png"
   },
   "dependencies": {
     "cool-ascii-faces": "^1.3.4",
