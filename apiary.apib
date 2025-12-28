@@ -21,10 +21,33 @@ Root resource; points to other resources/actions in the service
         </html>
 ## CreditCheck History [/list]
 Returns a list of past credit rating records.
-### List [GET]
-+ Response 200 (text/html)
-        <html>
-        </html>
+### List Past Credit Checks [GET]
++ Response 200 (application/json)
+        {
+          "creditCheck" : [
+            {
+              "id" : "123",
+              "
+            }, 
+            {
+              "id" : "456",
+            },
+            {
+              "id" : "789",
+            } 
+          ]
+        }
+## Credit-Check Item [/list/123]
+Returns a list of past credit rating records.
+### Single Credit Checks [GET]
++ Response 200 (application/json)
+        {
+          "creditCheck" : [
+            {
+              "id" : "123",
+            } 
+          ]
+        }
 ## Credit-Check Form [/form]
 Returns the input form for making a credit-check request.
 ### Form [GET]
