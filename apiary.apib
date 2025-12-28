@@ -1,9 +1,76 @@
 FORMAT: 1A
-HOST: http://onboarding.example.org
-
-# Mt API 1 sketch
-This is a preliminary sketch of the Onboarding API
+HOST: http://polls.apiblueprint.org/
+# credit-check-sketch
+The public API profile for BigCo's credit-check service.
 ## Home [/]
-### Get Home Resource [GET]
+Root resource; points to other resources/actions in the service
+### Root [GET]
 + Response 200 (text/html)
-            <h2>Home</h2>
+        <html>
+            <head>
+                <title>Home</title>
+            </head>
+            <body>
+                <h1>Home</h1>
+                <ul> 
+                  <li>
+                    <a href="/list">CreditCheck History</a>
+                  </li>
+                </ul>
+            </body>
+        </html>
+## CreditCheck History [/list]
+Returns a list of past credit rating records.
+### List [GET]
++ Response 200 (text/html)
+        <html>
+        </html>
+## Credit-Check Form [/form]
+Returns the input form for making a credit-check request.
+### Form [GET]
++ Response 200 (text/html)
+        <html>
+            <head>
+                <title>Credit Check Form</title>
+            </head>
+            <body>
+                <h1>Credit Check Form</h1>
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li> 
+                  <li>
+                    <a href="/list">Credit Check History</a>
+                  </li>
+                </ul>
+                <form action="/list/123">
+                    <label>Company Name</label>
+                    <input name="companyName" />
+                    <input type="submit" />
+                </form>
+            </body>
+        </html>
+## Credit-Check Item [/list/123]
+Returns a single credit check record
+### Item [GET]
++ Response 200 (text/html)
+        <html>
+            <head>
+                <title>Credit Check Item</title>
+            </head>
+            <body>
+                <h1>Credit Check Item</h1>
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li> 
+                  <li>
+                    <a href="/list">Credit Check History</a>
+                  </li>
+                  <li>
+                    <a href="/form">Credit Check Form</a>
+                  </li> 
+                </ul>
+                <p>RatingItem goes here...</p>
+            </body>
+        </html>
